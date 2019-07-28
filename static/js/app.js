@@ -18,7 +18,7 @@ function loadData() {
         var row = tBody.append("tr")
         columnNames.forEach(column => {
             if (column == "city" || column == "state" || column == "country" || column == "shape") {
-                row.append("td").text(aliens[column].toUpperCase())
+                row.append("td").text(aliens[column])
             }
             else row.append("td").text(aliens[column])
         })
