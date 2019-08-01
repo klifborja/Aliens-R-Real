@@ -81,7 +81,7 @@ function filterData() {
         })
     })
 }
-// Add event handler for the "Filter Table" button
+// Add event listener for the "Filter Table" button
 filterBtn.on("click", filterData)
 
 // Creat a function to reset the table and load the data 
@@ -90,7 +90,7 @@ function resetData() {
     loadData()
 }
 
-// Add event handler for the "Reset Table" button
+// Add event listener for the "Reset Table" button
 resetBtn.on("click", resetData)
 
 
