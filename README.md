@@ -1,5 +1,5 @@
 # Aliens-R-Real
-![earth-from-space](Static/Images/nasa.jpg)
+![earth-from-space](static/Images/nasa.jpg)
 
 JavaScript and DOM Manipulation
 
